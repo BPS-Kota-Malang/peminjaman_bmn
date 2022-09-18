@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BarangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +23,9 @@ Route::get('/dashboard', function () {
 Route::get('/login', function () {
     return view('login.login');
 });
-
+Route::resource('barang', BarangController::class);
+Route::controller(BarangController::class)->group(function(){
+    
+    Route::get('barang-export', 'export')->name('barang.export');
+    Route::post('barang-import', 'import')->name('barang.import');
+});
