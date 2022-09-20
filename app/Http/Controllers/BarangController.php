@@ -133,7 +133,7 @@ class BarangController extends Controller
     //fungsi eloquent untuk mengupdate data inputan kita
     Barang::find($id)->update($request->all());
     //jika data berhasil diupdate, akan kembali ke halaman utama
-    return redirect()->route('Barang.index')->with('success', 'Data Barang Berhasil Diupdate');
+    return redirect()->route('barang.index')->with('success', 'Data Barang Berhasil Diupdate');
     }
 
     /**
