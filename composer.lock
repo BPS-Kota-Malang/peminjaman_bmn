@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
     "content-hash": "958e500ffae3e9d9d091e1b6349f4628",
-=======
-    "content-hash": "e9af5d2551f0363534d8eae8add84b96",
->>>>>>> 8911d52 (role and permenssion)
     "packages": [
         {
             "name": "brick/math",
@@ -438,7 +434,6 @@
             "time": "2022-06-18T20:57:19+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "ezyang/htmlpurifier",
             "version": "v4.16.0",
             "source": {
@@ -500,8 +495,6 @@
             "time": "2022-09-18T07:06:19+00:00"
         },
         {
-=======
->>>>>>> 8911d52 (role and permenssion)
             "name": "fruitcake/php-cors",
             "version": "v1.2.0",
             "source": {
@@ -1346,70 +1339,6 @@
             "time": "2022-03-23T12:38:24+00:00"
         },
         {
-<<<<<<< HEAD
-=======
-            "name": "laravel/ui",
-            "version": "v4.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/ui.git",
-                "reference": "9aa6930c8ae98b2465594d7f14f4ac131bfd6a99"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/9aa6930c8ae98b2465594d7f14f4ac131bfd6a99",
-                "reference": "9aa6930c8ae98b2465594d7f14f4ac131bfd6a99",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^9.21",
-                "illuminate/filesystem": "^9.21",
-                "illuminate/support": "^9.21",
-                "illuminate/validation": "^9.21",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Ui\\UiServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Ui\\": "src/",
-                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel UI utilities and presets.",
-            "keywords": [
-                "laravel",
-                "ui"
-            ],
-            "support": {
-                "source": "https://github.com/laravel/ui/tree/v4.0.2"
-            },
-            "time": "2022-09-09T18:20:35+00:00"
-        },
-        {
->>>>>>> 8911d52 (role and permenssion)
             "name": "laravelcollective/html",
             "version": "v6.3.0",
             "source": {
@@ -1671,7 +1600,6 @@
         },
         {
             "name": "league/flysystem",
-<<<<<<< HEAD
             "version": "3.5.0",
             "source": {
                 "type": "git",
@@ -1682,18 +1610,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b7bb46dee497b57e0c378315f2a711824cb46c38",
                 "reference": "b7bb46dee497b57e0c378315f2a711824cb46c38",
-=======
-            "version": "3.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f14993c6e394450ac4649da35264df0544d0234e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f14993c6e394450ac4649da35264df0544d0234e",
-                "reference": "f14993c6e394450ac4649da35264df0544d0234e",
->>>>>>> 8911d52 (role and permenssion)
                 "shasum": ""
             },
             "require": {
@@ -1755,11 +1671,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem/tree/3.5.0"
-=======
-                "source": "https://github.com/thephpleague/flysystem/tree/3.5.1"
->>>>>>> 8911d52 (role and permenssion)
             },
             "funding": [
                 {
@@ -1775,11 +1687,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2022-09-17T21:06:02+00:00"
-=======
-            "time": "2022-09-18T18:23:19+00:00"
->>>>>>> 8911d52 (role and permenssion)
         },
         {
             "name": "league/mime-type-detection",
@@ -1838,7 +1746,6 @@
             "time": "2022-04-17T13:12:02+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "maatwebsite/excel",
             "version": "3.1.40",
             "source": {
@@ -2097,8 +2004,6 @@
             "time": "2021-07-01T19:01:15+00:00"
         },
         {
-=======
->>>>>>> 8911d52 (role and permenssion)
             "name": "monolog/monolog",
             "version": "2.8.0",
             "source": {
@@ -2201,7 +2106,6 @@
             "time": "2022-07-24T11:55:47+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "myclabs/php-enum",
             "version": "1.8.4",
             "source": {
@@ -2265,8 +2169,6 @@
             "time": "2022-08-04T09:53:51+00:00"
         },
         {
-=======
->>>>>>> 8911d52 (role and permenssion)
             "name": "nesbot/carbon",
             "version": "2.62.1",
             "source": {
@@ -2658,7 +2560,6 @@
             "time": "2022-08-01T11:03:24+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "phpoffice/phpspreadsheet",
             "version": "1.24.1",
             "source": {
@@ -2763,8 +2664,6 @@
             "time": "2022-07-18T19:50:48+00:00"
         },
         {
-=======
->>>>>>> 8911d52 (role and permenssion)
             "name": "phpoption/phpoption",
             "version": "1.9.0",
             "source": {
@@ -3154,7 +3053,6 @@
         },
         {
             "name": "psr/simple-cache",
-<<<<<<< HEAD
             "version": "2.0.0",
             "source": {
                 "type": "git",
@@ -3165,18 +3063,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/8707bf3cea6f710bf6ef05491234e3ab06f6432a",
                 "reference": "8707bf3cea6f710bf6ef05491234e3ab06f6432a",
-=======
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
-                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
->>>>>>> 8911d52 (role and permenssion)
                 "shasum": ""
             },
             "require": {
@@ -3185,11 +3071,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "2.0.x-dev"
-=======
-                    "dev-master": "3.0.x-dev"
->>>>>>> 8911d52 (role and permenssion)
                 }
             },
             "autoload": {
@@ -3216,15 +3098,9 @@
                 "simple-cache"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/php-fig/simple-cache/tree/2.0.0"
             },
             "time": "2021-10-29T13:22:09+00:00"
-=======
-                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
-            },
-            "time": "2021-10-29T13:26:27+00:00"
->>>>>>> 8911d52 (role and permenssion)
         },
         {
             "name": "psy/psysh",

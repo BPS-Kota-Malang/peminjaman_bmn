@@ -159,10 +159,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-<<<<<<< HEAD
         Maatwebsite\Excel\ExcelServiceProvider::class,
-=======
->>>>>>> 8911d52 (role and permenssion)
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
@@ -185,11 +182,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-<<<<<<< HEAD
         Spatie\Permission\PermissionServiceProvider::class,
-=======
-
->>>>>>> 8911d52 (role and permenssion)
         /*
          * Package Service Providers...
          */
@@ -202,10 +195,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-<<<<<<< HEAD
-=======
-        Spatie\Permission\PermissionServiceProvider::class,
->>>>>>> 8911d52 (role and permenssion)
 
     ],
 
@@ -222,10 +211,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
-<<<<<<< HEAD
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
-=======
->>>>>>> 8911d52 (role and permenssion)
     ])->toArray(),
 
 ];
