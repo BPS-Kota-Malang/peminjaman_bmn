@@ -10,9 +10,14 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
+<<<<<<< HEAD
         "laravelcollective/html": "^6.3",
         "maatwebsite/excel": "^3.1",
         "psr/simple-cache": "2.0",
+=======
+        "laravel/ui": "^4.0",
+        "laravelcollective/html": "^6.3",
+>>>>>>> 8911d52 (role and permenssion)
         "spatie/laravel-permission": "^5.5"
     },
     "require-dev": {
