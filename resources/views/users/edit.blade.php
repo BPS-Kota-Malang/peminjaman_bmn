@@ -1,4 +1,4 @@
-@extends('master.dahsboard')
+@extends('master.app')
 
 
 @section('content')

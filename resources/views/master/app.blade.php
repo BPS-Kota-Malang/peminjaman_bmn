@@ -27,9 +27,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 @include('Template.top')
                 <!-- END: TOP Menu -->
 
-                <!-- BEGIN: TOP Menu -->
-                @include('Template.dashboard')
-                 <!-- END: TOP Menu -->
+                
 
 
         @include('Template.js')
