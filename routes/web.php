@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BarangController;
+use App\Http\Controllers\RuangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,9 @@ Route::controller(BarangController::class)->group(function(){
     Route::get('barang-export', 'export')->name('barang.export');
     Route::post('barang-import', 'import')->name('barang.import');
 });
+
+Route::resource('ruang', ruangController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
